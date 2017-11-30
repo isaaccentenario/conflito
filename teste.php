@@ -1,5 +1,8 @@
 <?php 
 
 for($i = 0; $i < 100; $i ++ ) {
-    echo $i;
+    if( $i % 10 == 0 ) {
+        echo "Testando";
+    }
+    echo $i * 2;
 }
